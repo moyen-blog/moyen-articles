@@ -48,7 +48,7 @@ In addition to websites becoming larger, they are becoming less user-friendly. O
 
 ## Features
 
-1. Upload from a directory of existing markdown files and images
+1. Upload from a directory of existing Markdown files and images
 1. Simple, functional styling means blogs are readable on mobile and desktop
 1. No third party script or cookies, ads, trackers, etc.
 1. Minimally customizable; focus on simply writing
