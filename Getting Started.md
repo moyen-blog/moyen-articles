@@ -14,7 +14,7 @@ Moyen ingests articles written in the [Markdown format](https://en.wikipedia.org
 
 1. **Download a client**
 
-    For the time being, there is a single CLI client available. [Install the client](https://github.com/moyen-blog/client-go) by following the linked instructions. Note that the [Go programming language](https://golang.org/) must already be installed on your machine.
+    For the time being, there is a single CLI client available. [Install the client](https://github.com/moyen-blog/client-go) by following the linked instructions. Note that the [Go programming language](https://golang.org/) (minimum Go 1.16) must already be installed on your machine.
 
 1. **Configure your credentials**
 

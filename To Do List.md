@@ -16,6 +16,8 @@
 - [x] Pretty HTML email (signup & login)
 - [x] CSP, etc. ([hint](https://securityheaders.com/?q=moyen.blog))
 - [ ] Getting started guide
+- [ ] User login landing page (*me.moyen.blog*)
+- [ ] Document CLI client (README)
 - [x] Caching
 - [x] Harden CLI client
 
@@ -36,6 +38,7 @@
 ## Post-Launch Roadmap
 
 - [ ] TOS & privacy policy
+- [ ] Favicon
 - [x] Rate limiting
 - [ ] Tags
 - [ ] Configurable article snippet
@@ -62,6 +65,7 @@
 - [ ] Use buffer pool to alleviate GC ([hint](https://www.reddit.com/r/golang/comments/27ls5a/including_htmltemplate_snippets_is_there_a_better/))
     - [x] All or nothing template rendering
     - [ ] Markdown rendering
+- [ ] Collation can corrupt columns ([hint](https://www.cockroachlabs.com/docs/stable/collate.html#collation-versioning))
 - [ ] App Engine optimization
     - [ ] Serve static files directly (with headers) ([hint](https://cloud.google.com/appengine/docs/flexible/python/serving-static-files))
     - [ ] HTTPS redirect (`secure` setting)
