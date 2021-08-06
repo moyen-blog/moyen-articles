@@ -29,6 +29,6 @@ Moyen ingests articles written in the [Markdown format](https://en.wikipedia.org
 
     In the top level of your workspace, run `moyen-cli`. A list of articles to be published will be shown. Type *yes* or *y* to confirm and press enter. After a few seconds, your articles will be published. Visit *yourusername.moyen.blog* to view your published articles.
 
-To see an example workspace, check out the [Moyen documentation](https://github.com/moyen-blog/moyen-documentation). Yes, this is what publishes the very article you're reading right now!
+To see an example workspace, check out the [Moyen documentation workspace](https://github.com/moyen-blog/moyen-documentation). Yes, the very article you're reading right now is published via Moyen.
 
 You're all set! Wondering what to do next? See the [Advanced Usage Guide](</Advanced Usage.md>) for some tips and tricks.
