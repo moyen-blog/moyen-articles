@@ -1,0 +1,27 @@
+name: Publish Documentation
+on:
+  push:
+    branches: [master]
+concurrency: publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.16'
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Moyen client
+        run: |
+          echo "$(go env GOPATH)" >> $GITHUB_PATH
+          go install github.com/moyen-blog/client-go/moyen-cli@latest
+
+      - name: Sync articles
+        env:
+          MOYEN_USERNAME: moyen
+          MOYEN_TOKEN: ${{ secrets.MOYEN_TOKEN }}
+        run: moyen-cli -y
