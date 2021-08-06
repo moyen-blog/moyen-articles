@@ -41,6 +41,7 @@
 - [ ] Favicon
 - [x] Rate limiting
 - [ ] Tags
+- [ ] GitHub Actions client
 - [ ] Configurable article snippet
 - [ ] Configurable themes
 - [ ] RSS feed
