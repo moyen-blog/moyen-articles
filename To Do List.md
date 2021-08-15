@@ -15,9 +15,9 @@
 - [x] Force HTTPS
 - [x] Pretty HTML email (signup & login)
 - [x] CSP, etc. ([hint](https://securityheaders.com/?q=moyen.blog))
-- [ ] Getting started guide
+- [x] Getting started guide
 - [ ] User login landing page (*me.moyen.blog*)
-- [ ] Document CLI client (README)
+- [x] Document CLI client (README)
 - [x] Caching
 - [x] Harden CLI client
 
