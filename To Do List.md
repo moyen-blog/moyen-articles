@@ -53,6 +53,8 @@
 - [ ] Backlinking
 - [ ] Custom domains
 - [ ] GUI client
+- [ ] Social links
+- [ ] Transclusion
 - [ ] Rich preview
 - [ ] Discover page
 - [ ] Estimated reading time
@@ -70,6 +72,7 @@
 - [ ] App Engine optimization
     - [ ] Serve static files directly (with headers) ([hint](https://cloud.google.com/appengine/docs/flexible/python/serving-static-files))
     - [ ] HTTPS redirect (`secure` setting)
+- [ ] All external links `nofollow`
 - [ ] PRG ([hint](https://en.wikipedia.org/wiki/Post/Redirect/Get)) on form submission
 - [x] Refactor double (`2rem`) margin top and bottom e.g. buttons, title block
 - [x] Refactor page presentation handlers
